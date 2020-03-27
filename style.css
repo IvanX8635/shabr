@@ -1,0 +1,27 @@
+.home-background-img{
+	opacity:.7;
+}
+
+@media (min-width: 600px){
+	.home-background-img{
+		width:100%;
+	}
+}
+
+@media (min-width: 400px)
+{
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-header button {
+        display: block;
+    }
+}
+.centered {
+	position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+}
