@@ -1,3 +1,8 @@
+
+.heading-text{
+    font-size: 10vw;
+}
+
 .home-background-img{
 	opacity:.7;
 }
@@ -17,11 +22,21 @@
     .navbar-header button {
         display: block;
     }
+    
+    .header-text{
+        font-size:1vw!important;
+    }
 }
 .centered {
 	position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size:50px;
+  font-size:5vw;
+}
+.list-text{
+    font-size:2.5vw;
+}
+.button-text{
+    font-size:4vw;
 }
