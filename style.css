@@ -1,6 +1,6 @@
 
 .heading-text{
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 .home-background-img{
@@ -37,17 +37,40 @@
 .list-text{
     font-size:2.5vw;
 }
+
+.list-text:hover{
+    color:orange;
+}
 .button-text{
     font-size:4vw;
 }
 
 /*icons*/
 
-.fly-icon{
-    background-image: url(icons/fly-icon.png);
-}
+
 
 .testimonials{
     margin-top: 2vw;
     font-size: 2.5vw;
 }
+
+.testimonials:hover {
+  background-color: yellow;
+}
+.carousel-control-next:hover{
+    opacity:.3;
+    background: linear-gradient(90deg, rgba(10,0,60,.5) 5%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.carousel-control-prev:hover{
+    opacity:.3;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(9,9,121,1) 35%, rgba(10,0,60,.5) 5%);
+}
+.info-hover:hover{
+    font-size:1.5vw;
+}
+
+.hover-contacts:hover{
+    font-size:1.25rem;
+}
+
