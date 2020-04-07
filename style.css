@@ -1,9 +1,14 @@
 
 .heading-text{
+
     font-size: 7vw;
+}
+.navbar-anim1{
+        animation: transform 5s 1;
 }
 
 .home-background-img{
+
 	opacity:.7;
 }
 
@@ -28,14 +33,23 @@
     }
 }
 .centered {
+    
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:5vw;
 }
+
+
+/*Lists*/
+
+
+
 .list-text{
+    
     font-size:2.5vw;
+    transition: color 500ms ease;
 }
 
 .list-text:hover{
@@ -52,11 +66,20 @@
 .testimonials{
     margin-top: 2vw;
     font-size: 2.5vw;
+    transition: background-color 300ms ease;
 }
 
 .testimonials:hover {
   background-color: yellow;
 }
+
+
+
+/*Carousel*/
+
+
+
+
 .carousel-control-next:hover{
     opacity:.3;
     background: linear-gradient(90deg, rgba(10,0,60,.5) 5%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -66,10 +89,22 @@
     opacity:.3;
     background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(9,9,121,1) 35%, rgba(10,0,60,.5) 5%);
 }
+
+
+/*Info Hover*/
+
+
+
+.info-hover{
+    transition: font-size 550ms ease;
+}
 .info-hover:hover{
     font-size:1.25rem;
 }
 
+.hover-contacts{
+    transition: font-size 550ms ease;
+}
 .hover-contacts:hover{
     font-size:1.25rem;
 }
@@ -83,4 +118,11 @@
 /*    color:blue;*/
 /*}*/
 /*}*/
-
+@keyframes transform{
+    0%{
+        transform: scale(.25);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
